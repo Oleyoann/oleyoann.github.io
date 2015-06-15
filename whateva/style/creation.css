@@ -1,0 +1,51 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.textInput {
+    box-sizing: border-box;
+    font-size: 20px;
+    width: calc(100% - 20px);
+    margin: 10px;
+}
+
+#tags{
+    margin-top: 0;
+}
+
+#mainImage {
+    max-width: calc(100% - 40px);
+    margin: 20px;
+}
+
+#deadline {
+    box-sizing: border-box;
+    margin-left: 10px;
+    width: calc(50% - 15px);
+    float: left;
+}
+
+#price {
+    box-sizing: border-box;
+    margin-left: 5px;
+    width: calc(50% - 15px);
+    float: left;
+}
+
+#facebook {
+    box-sizing: border-box;
+    margin-left: 10px;
+    width: calc(50% - 15px);
+    float: left;
+    margin-top: 20px;
+}
+
+#twitter {
+    box-sizing: border-box;
+    margin-left: 5px;
+    width: calc(50% - 15px);
+    margin-top: 20px;
+    float: left;
+}

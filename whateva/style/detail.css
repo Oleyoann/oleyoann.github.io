@@ -1,0 +1,71 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#title {
+    box-sizing: border-box;;
+    font-size: 20px;
+    width: calc(100% - 20px);
+    margin: 10px;
+}
+
+#tags{
+    margin-top: 0;
+}
+
+#mainImage {
+    max-width: calc(100% - 40px);
+    margin: 20px;
+}
+
+#deadline {
+    box-sizing: border-box;
+    margin-left: 10px;
+    width: calc(50% - 15px);
+    float: left;
+    border: 1px solid #ccc;
+}
+
+#price {
+    box-sizing: border-box;
+    margin-left: 5px;
+    width: calc(50% - 15px);
+    float: left;
+    border: 1px solid #ccc;
+}
+
+#facebook {
+    box-sizing: border-box;
+    margin-left: 10px;
+    width: calc(50% - 15px);
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+#description {
+    margin-bottom: 20px;
+}
+
+#twitter {
+    box-sizing: border-box;
+    margin-left: 5px;
+    width: calc(50% - 15px);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+    border: 1px solid #ccc;
+}
+
+#buy {
+    overflow: hidden;
+    background-color: #00ff00;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}

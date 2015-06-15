@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="../style/detail.css" />
+</head>
+<body>
+<div id="container">
+    <div id="title">Here is some nice title</div>
+    <img id="mainImage" src="http://placehold.it/900/cccccc/000000&text=placeholder" />
+    <div id="description" class="textInput" >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+
+    <div id="deadline">Deadline</div>
+    <div id="price">400$</div>
+    <div id="facebook">Facebook</div>
+    <div id="twitter">Twitter</div>
+
+    <div id="buy">Want In</div>
+</div>
+<script src="../js/navigation.js"></script>
+<script src="../js/hammer.js"></script>
+<script>
+    var myElement = document.getElementById("container");
+
+    var mc = new Hammer(myElement);
+
+    mc.get('pan').set({ direction: Hammer.DIRECTION_LEFT });
+
+    mc.on("swipeleft", function(ev) {
+        document.location.href='/'
+    });
+</script>
+</body>
+</html>
