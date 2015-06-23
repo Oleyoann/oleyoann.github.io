@@ -4,6 +4,7 @@ window.yh = (function(){
         mc2,
         sidebar,
         list,
+        s,
         isSidebarOpen = false;
 
     var setupGestures = function() {
@@ -16,7 +17,7 @@ window.yh = (function(){
 
         document.body.classList.add('no-scroll');
         isSidebarOpen = true;
-        sidebar.style.display = 'block';
+        sidebar.style.display = '`';
         if (!mc2) {
             mc2 = new Hammer(sidebar);
 
@@ -46,11 +47,21 @@ window.yh = (function(){
 
         });
 
-
-
         mc.on("swipeleft", function(ev) {
             showSidePanel();
         });
+
+        window.addEventListener('resize', function(){
+            setCellHeight();
+        }, false);
+    };
+
+    var setCellHeight = function(){
+
+        var pageWidth = window.outerWidth,
+            cellHeight = Math.round(pageWidth / 2);
+
+        s.innerHTML = '#list li div { height:' + cellHeight + 'px;}'
 
     };
 
@@ -58,6 +69,10 @@ window.yh = (function(){
 
         list = document.getElementById('list');
         sidebar = document.getElementById('sidebar');
+        s = document.getElementById('style');
+
+        setCellHeight();
+
         mc = new Hammer(list, {
             preventDefault: true
         });

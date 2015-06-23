@@ -1,7 +1,6 @@
 body, html {
     padding: 0;
     margin: 0;
-    text-align: center;
     font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
@@ -18,7 +17,17 @@ body, html {
 
 #mainImage {
     max-width: calc(100% - 40px);
-    margin: 20px;
+    margin-top: 10px;
+}
+
+#description {
+    margin: 10px;
+    width: calc(100% - 20px);
+    heigth: calc();
+    text-align: justify;
+    overflow: hidden;
+    border-radius: 3px;
+    border: 1px solid #ccc;
 }
 
 #deadline {
@@ -26,7 +35,10 @@ body, html {
     margin-left: 10px;
     width: calc(50% - 15px);
     float: left;
+    padding: 10px;
+    border-radius: 3px;
     border: 1px solid #ccc;
+
 }
 
 #price {
@@ -34,6 +46,8 @@ body, html {
     margin-left: 5px;
     width: calc(50% - 15px);
     float: left;
+    padding: 10px;
+    border-radius: 3px;
     border: 1px solid #ccc;
 }
 
@@ -43,12 +57,9 @@ body, html {
     width: calc(50% - 15px);
     float: left;
     margin-top: 20px;
-    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 3px;
     border: 1px solid #ccc;
-}
-
-#description {
-    margin-bottom: 20px;
 }
 
 #twitter {
@@ -56,8 +67,9 @@ body, html {
     margin-left: 5px;
     width: calc(50% - 15px);
     margin-top: 20px;
-    margin-bottom: 20px;
     float: left;
+    padding: 10px;
+    border-radius: 3px;
     border: 1px solid #ccc;
 }
 
@@ -65,7 +77,7 @@ body, html {
     overflow: hidden;
     background-color: #00ff00;
     width: 100%;
-    margin-top: 20px;
+    margin-bottom: 0px;
     padding: 20px;
     box-sizing: border-box;
 }

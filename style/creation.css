@@ -25,6 +25,10 @@ body, html {
     margin-left: 10px;
     width: calc(50% - 15px);
     float: left;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+
 }
 
 #price {
@@ -32,6 +36,9 @@ body, html {
     margin-left: 5px;
     width: calc(50% - 15px);
     float: left;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
 }
 
 #facebook {
@@ -40,6 +47,9 @@ body, html {
     width: calc(50% - 15px);
     float: left;
     margin-top: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
 }
 
 #twitter {
@@ -48,4 +58,7 @@ body, html {
     width: calc(50% - 15px);
     margin-top: 20px;
     float: left;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
 }
