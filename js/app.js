@@ -17,7 +17,7 @@ window.yh = (function(){
 
         document.body.classList.add('no-scroll');
         isSidebarOpen = true;
-        sidebar.style.display = '`';
+        sidebar.style.display = 'block';
         if (!mc2) {
             mc2 = new Hammer(sidebar);
 
@@ -56,9 +56,9 @@ window.yh = (function(){
         }, false);
     };
 
-    var setCellHeight = function(){
+    var setCellHeight = function() {
 
-        var pageWidth = window.outerWidth,
+        var pageWidth = screen.width,
             cellHeight = Math.round(pageWidth / 2);
 
         s.innerHTML = '#list li div { height:' + cellHeight + 'px;}'
@@ -82,10 +82,6 @@ window.yh = (function(){
     };
 
     init();
-
-    return {
-
-    }
 
 }());
 
