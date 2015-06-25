@@ -6,18 +6,33 @@ body, html {
 
 .textInput {
     box-sizing: border-box;
-    font-size: 20px;
+    border-radius: 3px;
     width: calc(100% - 20px);
-    margin: 10px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    margin-left: 10px;
 }
 
 #tags{
     margin-top: 0;
+    font-size: 14px;
 }
 
 #mainImage {
     max-width: calc(100% - 40px);
-    margin: 20px;
+    max-height: calc(100% - 40px);
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+#description {
+    margin: 10px;
+    width: calc(100% - 22px);
+    font-size: 14px;
+    text-align: justify;
+    padding: 30px overflow : hidden;
+    border-radius: 3px;
 }
 
 #deadline {
@@ -25,9 +40,10 @@ body, html {
     margin-left: 10px;
     width: calc(50% - 15px);
     float: left;
+    text-align: Center;
+    font-size: 20px;
     padding: 10px;
     border-radius: 3px;
-    border: 1px solid #ccc;
 }
 
 #price {
@@ -35,9 +51,10 @@ body, html {
     margin-left: 10px;
     width: calc(50% - 15px);
     float: left;
+    text-align: Center;
+    font-size: 20px;
     padding: 10px;
     border-radius: 3px;
-    border: 1px solid #ccc;
 }
 
 #facebook {
@@ -45,9 +62,10 @@ body, html {
     margin-left: 10px;
     width: calc(50% - 15px);
     float: left;
+    text-align: Center;
+    font-size: 20px;
     padding: 10px;
     border-radius: 3px;
-    border: 1px solid #ccc;
 }
 
 #twitter {
@@ -55,7 +73,23 @@ body, html {
     margin-left: 10px;
     width: calc(50% - 15px);
     float: left;
+    text-align: Center;
+    font-size: 20px;
     padding: 10px;
     border-radius: 3px;
-    border: 1px solid #ccc;
+}
+
+#OKButton {
+    overflow: hidden;
+    background-color: #0098ff;
+    font-color: rgb(0, 0, 0);
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: Center;
+    font-weight: Bolder;
+    border-radius: 0px;
+    border: 0px solid #ccc;
+    box-sizing: border-box;
 }

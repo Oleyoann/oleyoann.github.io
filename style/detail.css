@@ -1,13 +1,12 @@
 body, html {
-    padding: 0;
     margin: 0;
     text-align: center;
+    font-size: 20px;
     font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 #title {
     box-sizing: border-box;;
-    font-size: 20px;
     width: calc(100% - 20px);
     margin: 10px;
 }
@@ -18,13 +17,16 @@ body, html {
 
 #mainImage {
     max-width: calc(100% - 40px);
+    max-height: calc(100% - 40px);
     margin: 10px;
 }
 
 #description {
     margin: 10px;
-    width: calc(100% - 20px);
+    width: calc(100% - 22px);
+    font-size: 14px;
     text-align: justify;
+    padding: 30px
     overflow: hidden;
     border-radius: 3px;
     border: 1px solid #ccc;
@@ -53,19 +55,26 @@ body, html {
 #facebook {
     box-sizing: border-box;
     margin-left: 10px;
+    margin-top: 10px;
     width: calc(50% - 15px);
     float: left;
     padding: 10px;
     border-radius: 3px;
+    font-family: Lucida Grande;
+    font-size: 14px;
+    font-color: rgb(59, 89, 152);
     border: 1px solid #ccc;
 }
 
 #twitter {
     box-sizing: border-box;
     margin-left: 10px;
+    margin-top: 10px;
     width: calc(50% - 15px);
     float: left;
     padding: 10px;
+    font-family: Helvetica Neue;
+    font-color: rgb(85, 172, 238);
     border-radius: 3px;
     border: 1px solid #ccc;
 }
@@ -73,6 +82,8 @@ body, html {
 #buy {
     overflow: hidden;
     background-color: #00ff00;
+    font-size: 40px;
+    font-weight: Bolder;
     width: 100%;
     margin-top: 20px;
     padding: 20px;
