@@ -25,13 +25,19 @@ body, html {
     margin-left: 10px;
     width: calc(50% - 15px);
     float: left;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
 }
 
 #price {
     box-sizing: border-box;
-    margin-left: 5px;
+    margin-left: 10px;
     width: calc(50% - 15px);
     float: left;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
 }
 
 #facebook {
@@ -39,13 +45,17 @@ body, html {
     margin-left: 10px;
     width: calc(50% - 15px);
     float: left;
-    margin-top: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
 }
 
 #twitter {
     box-sizing: border-box;
-    margin-left: 5px;
+    margin-left: 10px;
     width: calc(50% - 15px);
-    margin-top: 20px;
     float: left;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
 }

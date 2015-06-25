@@ -18,7 +18,16 @@ body, html {
 
 #mainImage {
     max-width: calc(100% - 40px);
-    margin: 20px;
+    margin: 10px;
+}
+
+#description {
+    margin: 10px;
+    width: calc(100% - 20px);
+    text-align: justify;
+    overflow: hidden;
+    border-radius: 3px;
+    border: 1px solid #ccc;
 }
 
 #deadline {
@@ -26,14 +35,18 @@ body, html {
     margin-left: 10px;
     width: calc(50% - 15px);
     float: left;
+    padding: 10px;
+    border-radius: 3px;
     border: 1px solid #ccc;
 }
 
 #price {
     box-sizing: border-box;
-    margin-left: 5px;
+    margin-left: 10px;
     width: calc(50% - 15px);
     float: left;
+    padding: 10px;
+    border-radius: 3px;
     border: 1px solid #ccc;
 }
 
@@ -42,22 +55,18 @@ body, html {
     margin-left: 10px;
     width: calc(50% - 15px);
     float: left;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 3px;
     border: 1px solid #ccc;
-}
-
-#description {
-    margin-bottom: 20px;
 }
 
 #twitter {
     box-sizing: border-box;
-    margin-left: 5px;
+    margin-left: 10px;
     width: calc(50% - 15px);
-    margin-top: 20px;
-    margin-bottom: 20px;
     float: left;
+    padding: 10px;
+    border-radius: 3px;
     border: 1px solid #ccc;
 }
 
