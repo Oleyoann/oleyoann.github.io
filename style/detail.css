@@ -79,13 +79,15 @@ body, html {
     border: 1px solid #ccc;
 }
 
-#buy {
+#wantIn {
     overflow: hidden;
     background-color: #00ff00;
     font-size: 40px;
     font-weight: Bolder;
     width: 100%;
-    margin-top: 20px;
-    padding: 20px;
     box-sizing: border-box;
+    margin-bottom: 0px;
+    padding: 20px;
+    position:fixed;
+    z-index:100;
 }
