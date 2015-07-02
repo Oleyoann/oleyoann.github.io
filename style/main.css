@@ -56,6 +56,7 @@ a {
 
 .counter {
     background: deeppink;
+    opacity: 0.8;
     display: inline-block;
     position: absolute;
     top: -12px;
@@ -72,6 +73,7 @@ a {
 
 #sidebar {
     display:none;
+    opacity: 0.9;
     background-color: #ccc;
     width: 80%;
     position: absolute;

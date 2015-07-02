@@ -1,14 +1,16 @@
 body, html {
     margin: 0;
+    padding: 0;
     text-align: center;
-    font-size: 20px;
+    font-size: 5vw;
+    font-weight: bold;
     font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 #title {
     box-sizing: border-box;;
     width: calc(100% - 20px);
-    margin: 10px;
+    margin: 10px 10px 0px 0px;
 }
 
 #tags{
@@ -17,64 +19,84 @@ body, html {
 
 #mainImage {
     max-width: calc(100% - 40px);
-    max-height: calc(100% - 40px);
-    margin: 10px;
+    margin: 20px;
+}
+
+#center-cropped {
+    object-fit: cover; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    height: 400px;
+    width: 400px;
 }
 
 #description {
-    margin: 10px;
-    width: calc(100% - 22px);
-    font-size: 14px;
+    margin: auto;
+    width: calc(100% - 40px);
+    height: 100px;
+    font-size: 2vh;
     text-align: justify;
-    padding: 30px
-    overflow: hidden;
+/*    padding: 30px*/
+    float: center;
+    font-weight: normal;
     border-radius: 3px;
     border: 1px solid #ccc;
 }
 
 #deadline {
+    height: 80px;
     box-sizing: border-box;
+    margin-top: 10px;
     margin-left: 10px;
     width: calc(50% - 15px);
     float: left;
-    padding: 10px;
     border-radius: 3px;
     border: 1px solid #ccc;
 }
 
 #price {
+    font-size: 7vw;
+    height: 80px;
     box-sizing: border-box;
+    margin-top: 10px;
     margin-left: 10px;
     width: calc(50% - 15px);
     float: left;
-    padding: 10px;
     border-radius: 3px;
     border: 1px solid #ccc;
 }
 
 #facebook {
+    background-image:url("/img/facebooklogo.png");
+    background-repeat: no-repeat;
+    background-position: 2% 50%;
+    background-size: 40px;
+    text-align: right;
+    height: 80px;
     box-sizing: border-box;
     margin-left: 10px;
     margin-top: 10px;
     width: calc(50% - 15px);
     float: left;
-    padding: 10px;
     border-radius: 3px;
     font-family: Lucida Grande;
-    font-size: 14px;
-    font-color: rgb(59, 89, 152);
+    color: rgb(59, 89, 152);
     border: 1px solid #ccc;
 }
 
 #twitter {
+    background-image:url("/img/twitterlogo.png");
+    background-repeat: no-repeat;
+    background-position: 2% 50%;
+    background-size: 40px 32px;
+    text-align: right;
+    height: 80px;
     box-sizing: border-box;
     margin-left: 10px;
     margin-top: 10px;
     width: calc(50% - 15px);
     float: left;
-    padding: 10px;
     font-family: Helvetica Neue;
-    font-color: rgb(85, 172, 238);
+    color: rgb(85, 172, 238);
     border-radius: 3px;
     border: 1px solid #ccc;
 }
