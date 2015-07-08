@@ -8,16 +8,22 @@
 </head>
 <body>
 <div id="container">
-    <img id="mainImage" src="http://placehold.it/2000/abcdef/000000&text=Link to image"/>
-    <textarea id="description" rows="6" class="textInput" placeholder="Give us some details"></textarea>
+    <input id="title" placeholder="OK. In 1 line, what is it about ?"></input>
+    <input id="tags" placeholder="Tags" />
+    <img id="mainImage" src="http://placehold.it/2000/abcdef/000000&text=Click to link an image"/>
+    <input id="description" placeholder="Now, for some details... You want to be balanced between as specific if you want to be, and broad to make it possible for your brand to deliver." rows="10"></input>
     <input id="deadline" placeholder="Deadline"/>
     <input id="price" placeholder="Price"/>
     <input id="facebook" placeholder="Facebook"/>
     <input id="twitter" placeholder="Twitter"/>
-    <input id="oKButton" placeholder="I Want to buy that!"/>
+    <div id="oKButton">I Want to buy that!</div>
 </div>
 <script src="js/navigation.js"></script>
 <script src="js/hammer.js"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+    google.load("search", "1");
+</script>
 <script>
     var myElement = document.getElementById("container");
 

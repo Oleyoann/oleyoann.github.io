@@ -20,9 +20,9 @@ body, html {
     margin: 10px 10px 0px 0px;
 }
 
-#tags{
+/*#tags{
     margin-top: 0;
-}
+}*/
 
 #mainImage {
     max-width: calc(100% - 40px);
