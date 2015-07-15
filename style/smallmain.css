@@ -1,0 +1,10 @@
+li div {
+    float : left;
+    width: 50%;
+/*    width: min(250px, 25%);*/
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}

@@ -28,16 +28,6 @@ li {
     line-height: 0;
 }
 
-li div {
-    float : left;
-    width: 50%;
-    position: relative;
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
 li div a {
     position: absolute;
     left:0;
@@ -55,8 +45,13 @@ a {
 }
 
 .counter {
-    background: deeppink;
-    opacity: 0.8;
+    background: slategrey;
+/*    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);*/
+    opacity: 0.65;
     display: inline-block;
     position: absolute;
     top: -12px;
@@ -93,10 +88,10 @@ ol {
 }
 ol li {
     display: block;
-    line-height: inherit;
+    line-height: 1;
     border-top: 1px solid #5d5d5d;
-    color: #fff;
-    padding: 5px;
+    color: white;
+    padding: 12px;
     position: relative;
     font-weight: 200;
 }
@@ -108,9 +103,10 @@ ol li {
     right: 0;
     bottom: 0;
     text-align: center;
+    font-weight: 600;
     padding: 10px 15px;
-    line-height: 0.7;
-    width: 50px;
+    line-height: 1;
+    width: 45px;
 }
 
 #sidebar > div {
